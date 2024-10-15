@@ -441,4 +441,48 @@
   
   ul.homelist {
     list-style-type: none;
+    font-family: 'Nosifer';
   }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 15px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+  
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f59201;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #865100;
+}
+
+html {
+  cursor: url('imgs/cursor.png'), default;
+}
+
+.more-info {
+  background-color: black;
+  color: red;
+  border: 2px solid red;
+}
+
+.more-info:hover {
+  cursor: url('imgs/cursor2.png'), pointer;
+  background-color: red;
+  color: black;
+}
+
+.gallerytext:hover{
+  color: gray;
+}
